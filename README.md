@@ -12,7 +12,7 @@ echo 400958 737471 | ./examples/rnn-bit -Ai add.kan -
 
 ## Goal of this fork
 
-This repo is a fork of KANN from attractivechaos.  It will have added functionality for 
+This repo is a fork of KANN from [https://github.com/attractivechaos/kann][attractivechaos].  It will have added functionality for 
 utilizing pretrained models from Keras,Tensorflow and PyTorch something of which didnt exist 
 in the orginal KANN repo.  The basic idea is to provide a lightweight framework that can 
 be used on embedded targets with minimal/non-existent resource dependencies.  
