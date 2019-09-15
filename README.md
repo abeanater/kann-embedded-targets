@@ -10,6 +10,14 @@ seq 30000 | awk -v m=10000 '{a=int(m*rand());b=int(m*rand());print a,b,a+b}' \
 echo 400958 737471 | ./examples/rnn-bit -Ai add.kan -
 ```
 
+## Goal of this fork
+
+This repo is a fork of KANN from attractivechaos.  It will have added functionality for 
+utilizing pretrained models from Keras,Tensorflow and PyTorch something of which didnt exist 
+in the orginal KANN repo.  The basic idea is to provide a lightweight framework that can 
+be used on embedded targets with minimal/non-existent resource dependencies.  
+
+
 ## Introduction
 
 KANN is a standalone and lightweight library in C for constructing and training
